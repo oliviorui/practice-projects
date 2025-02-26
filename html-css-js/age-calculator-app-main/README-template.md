@@ -14,7 +14,6 @@ Esta é a solução para o [desafio do aplicativo de calculadora de idade no Fro
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
   - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 **Nota: Apague esta nota e atualize o índice com base nas seções que você mantiver.**
 
@@ -111,9 +110,3 @@ Use esta seção para delinear áreas nas quais você quer continuar focando em 
 - Twitter - [@seunome](https://www.twitter.com/seunome)
 
 **Nota: Apague esta nota e adicione/remova/edite as linhas acima com base nos links que você deseja compartilhar.**
-
-## Agradecimentos
-
-Aqui você pode agradecer a quem te ajudou neste projeto. Talvez você tenha trabalhado em equipe ou se inspirado na solução de outra pessoa. Este é o local perfeito para dar crédito.
-
-**Nota: Apague esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.**
