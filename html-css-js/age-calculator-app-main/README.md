@@ -1,102 +1,102 @@
-# Frontend Mentor - Age calculator app
+# Frontend Mentor - Aplicativo de Calculadora de Idade
 
-![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
+![Prévia do design para o desafio de codificação do aplicativo de calculadora de idade](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Bem-vindo! 👋
 
-Thanks for checking out this front-end coding challenge.
+Obrigado por conferir este desafio de codificação front-end.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Os desafios do [Frontend Mentor](https://www.frontendmentor.io) ajudam você a melhorar suas habilidades de codificação, criando projetos realistas.
 
-**To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
+**Para fazer este desafio, você precisa ter um bom entendimento de HTML, CSS e JavaScript.**
 
-## The challenge
+## O desafio
 
-Your challenge is to build out this age calculator app and get it looking as close to the design as possible.
+O seu desafio é construir este aplicativo de calculadora de idade e deixá-lo o mais parecido possível com o design.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Você pode usar quaisquer ferramentas que desejar para ajudar a completar o desafio. Então, se você tem algo que gostaria de praticar, fique à vontade para tentar.
 
-Your users should be able to: 
+Os seus usuários devem ser capazes de:
 
-- View an age in years, months, and days after submitting a valid date through the form
-- Receive validation errors if:
-  - Any field is empty when the form is submitted
-  - The day number is not between 1-31
-  - The month number is not between 1-12
-  - The date is in the future
-  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: See the age numbers animate to their final number when the form is submitted
+- Visualizar a idade em anos, meses e dias após enviar uma data válida através do formulário
+- Receber erros de validação se:
+  - Algum campo estiver vazio ao enviar o formulário
+  - O número do dia não estiver entre 1-31
+  - O número do mês não estiver entre 1-12
+  - A data for no futuro
+  - A data for inválida, como 31/04/1991 (abril tem 30 dias)
+- Ver o layout ideal para a interface dependendo do tamanho da tela de seu dispositivo
+- Ver os estados de hover e focus para todos os elementos interativos da página
+- **Bônus**: Ver os números de idade animarem até o valor final quando o formulário for enviado
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+Quer um apoio no desafio? [Entre na nossa comunidade no Slack](https://www.frontendmentor.io/slack) e faça perguntas no canal **#help**.
 
-## Where to find everything
+## Onde encontrar tudo
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Sua tarefa é construir o projeto com base nos designs da pasta `/design`. Você encontrará tanto a versão móvel quanto a versão para desktop do design.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+Os designs estão no formato JPG estático. Usar JPGs significa que você precisará usar seu melhor julgamento para estilos como `font-size`, `padding` e `margin`.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+Se você quiser os arquivos de design (oferecemos versões para Sketch e Figma) para inspecionar o design com mais detalhes, você pode [assinar como membro PRO](https://www.frontendmentor.io/pro).
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+Todos os ativos necessários para este projeto estão na pasta `/assets`. As imagens já estão exportadas para o tamanho de tela correto e otimizadas.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+Também incluímos arquivos de fontes variáveis e estáticas para as fontes necessárias para este projeto. Você pode optar por vincular ao Google Fonts ou usar os arquivos de fonte locais para hospedar as fontes por conta própria. Observe que removemos os arquivos de fontes estáticas para os pesos de fonte que não são necessários para este projeto.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Há também um arquivo `style-guide.md` contendo as informações que você precisará, como paleta de cores e fontes.
 
-## Building your project
+## Construindo seu projeto
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Fique à vontade para usar qualquer fluxo de trabalho com o qual se sinta confortável. Abaixo está um processo sugerido, mas não sinta que precisa seguir esses passos:
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+1. Inicialize seu projeto como um repositório público no [GitHub](https://github.com/). Criar um repositório facilitará o compartilhamento de seu código com a comunidade, caso precise de ajuda. Se não souber como fazer isso, [dê uma olhada neste recurso Try Git](https://try.github.io/).
+2. Configure seu repositório para publicar seu código em um endereço da web. Isso também será útil se você precisar de ajuda durante o desafio, pois poderá compartilhar a URL do seu projeto com a URL do seu repositório. Há várias maneiras de fazer isso, e fornecemos algumas recomendações abaixo.
+3. Analise os designs para começar a planejar como você vai enfrentar o projeto. Esta etapa é crucial para ajudá-lo a pensar à frente sobre as classes CSS que você criará para estilos reutilizáveis.
+4. Antes de adicionar qualquer estilo, estruture seu conteúdo com HTML. Escrever seu HTML primeiro pode ajudar a focar sua atenção na criação de um conteúdo bem estruturado.
+5. Escreva os estilos base para seu projeto, incluindo estilos gerais para o conteúdo, como `font-family` e `font-size`.
+6. Comece adicionando estilos no topo da página e vá descendo. Só passe para a próxima seção quando estiver satisfeito com a área que está trabalhando.
 
-## Deploying your project
+## Implantando seu projeto
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+Como mencionado acima, há várias maneiras de hospedar seu projeto de forma gratuita. Nossos hosts recomendados são:
 
 - [GitHub Pages](https://pages.github.com/)
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+Você pode hospedar seu site usando uma dessas soluções ou qualquer um de nossos outros provedores confiáveis. [Leia mais sobre nossos hosts recomendados e confiáveis](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-## Create a custom `README.md`
+## Criar um `README.md` personalizado
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Recomendamos fortemente que você substitua este `README.md` por um personalizado. Fornecemos um modelo dentro do arquivo [`README-template.md`](./README-template.md) neste código inicial.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+O modelo fornece um guia sobre o que adicionar. Um `README` personalizado ajudará a explicar seu projeto e refletir sobre seus aprendizados. Sinta-se à vontade para editar nosso modelo como quiser.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Depois de adicionar suas informações ao modelo, exclua este arquivo e renomeie o arquivo `README-template.md` para `README.md`. Isso fará com que ele seja exibido como o arquivo README do seu repositório.
 
-## Submitting your solution
+## Enviando sua solução
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+Envie sua solução na plataforma para que o restante da comunidade veja. Siga nosso ["Guia completo para enviar soluções"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) para dicas sobre como fazer isso.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Lembre-se, se estiver procurando por feedback sobre sua solução, certifique-se de fazer perguntas ao enviá-la. Quanto mais específicas e detalhadas forem suas perguntas, maiores as chances de obter um feedback valioso da comunidade.
 
-## Sharing your solution
+## Compartilhando sua solução
 
-There are multiple places you can share your solution:
+Existem vários lugares onde você pode compartilhar sua solução:
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+1. Compartilhe a página da sua solução no canal **#finished-projects** da comunidade do [Slack](https://www.frontendmentor.io/slack).
+2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) e mencione **@frontendmentor**, incluindo o repositório e a URL ao vivo no tweet. Adoraríamos ver o que você construiu e ajudar a compartilhar.
+3. Compartilhe sua solução em outras redes sociais, como LinkedIn.
+4. Escreva sobre sua experiência construindo o projeto. Escrever sobre seu fluxo de trabalho, escolhas técnicas e explicar seu código é uma excelente maneira de reforçar o que você aprendeu. Ótimas plataformas para escrever são [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/) e [CodeNewbie](https://community.codenewbie.org/).
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+Fornecemos modelos para ajudar você a compartilhar sua solução assim que a enviar na plataforma. Sinta-se à vontade para editá-los e incluir perguntas específicas quando estiver procurando feedback.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+Quanto mais específico você for com suas perguntas, maior a chance de outro membro da comunidade oferecer feedback.
 
-## Got feedback for us?
+## Tem feedback para nós?
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Adoramos receber feedback! Estamos sempre procurando melhorar nossos desafios e nossa plataforma. Se tiver algo a mencionar, envie um e-mail para hi[at]frontendmentor[dot]io.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+Este desafio é completamente gratuito. Por favor, compartilhe-o com qualquer pessoa que achar que seria útil para prática.
 
-**Have fun building!** 🚀
+**Divirta-se construindo!** 🚀
