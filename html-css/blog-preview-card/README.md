@@ -11,7 +11,7 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ![Blog Preview Card](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/blog-preview-card-main/index.html)** 
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/blog-preview-card/index.html)** 
 
 ## 📌 Funcionalidades  
 
