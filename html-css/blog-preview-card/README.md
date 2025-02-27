@@ -33,7 +33,6 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ## 🔧 Melhorias Futuras  
 
-🚀 Adicionar animações suaves para hover  
 🚀 Melhorar acessibilidade com ARIA  
 🚀 Criar uma versão utilizando CSS Grid  
 
