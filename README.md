@@ -13,7 +13,14 @@ Este repositório contém desafios de desenvolvimento web que concluí em plataf
 Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pasta contém um projeto específico e pode ser acessada diretamente:  
 
 - html-css
-   - [3-column Preview Card](html-css/3-column-preview-card-component-main/index.html)  
+   - [3-column-preview-card-component-main](html-css/3-column-preview-card-component-main/index.html)
+   - [blog-preview-card-main](html-css/blog-preview-card-main/index.html)
+   - [chat-app-css-illustration-master](html-css/chat-app-css-illustration-master/index.html)
+   - [Chirp Starter Files](html-css/Chirp%20Starter%20Files/index.html)
+   - [Developer Portfolio Starter Files](html-css/Developer%20Portfolio%20Starter%20Files/index.html)
+- html-css-js
+   -[age-calculator-app-main](html-css-js/age-calculator-app-main/index.html)
+- html-css-js-api
 
 Novos desafios serão adicionados à medida que avanço nos estudos.  
 
