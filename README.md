@@ -19,7 +19,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Chirp Starter Files](html-css/Chirp%20Starter%20Files/index.html)
    - [Developer Portfolio Starter Files](html-css/Developer%20Portfolio%20Starter%20Files/index.html)
 - html-css-js
-   -[age-calculator-app-main](html-css-js/age-calculator-app-main/index.html)
+   - [age-calculator-app-main](html-css-js/age-calculator-app-main/index.html)
 - html-css-js-api
 
 Novos desafios serão adicionados à medida que avanço nos estudos.  
