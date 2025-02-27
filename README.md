@@ -21,12 +21,12 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Four Card Feature Section](html-css/four-card-feature-section/index.html)
    - [Gradie Sign Up](html-css/gradie-sign-up-starter-files/index.html)
    - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
-   - [qr-code-component-main](html-css/qr-code-component-main/index.html)
-   - [Snippet Template Starter Files](html-css/Snippet%20Template%20Starter%20Files/index.html)
+   - [QR Code Component](html-css/qr-code-component/index.html)
+   - [Snippet Template](html-css/Snippet%20Template%20Starter%20Files/index.html)
    - [Spense Starter Files](html-css/Spense%20Starter%20Files/index.html)
-   - [testimonials-grid-section-main](html-css/testimonials-grid-section-main/index.html)
+   - [testimonials-grid-section](html-css/testimonials-grid-section/index.html)
 - html-css-js
-   - [Age Calculator App](html-css-js/age-calculator-app-main/index.html)
+   - [Age Calculator App](html-css-js/age-calculator-app/index.html)
 - html-css-js-api
 
 Novos desafios serão adicionados à medida que avanço nos estudos. 
