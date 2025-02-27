@@ -14,6 +14,8 @@ Aqui estão alguns dos desafios que você encontrará neste repositório:
 
 - **Frontend Mentor**: Implementação de designs responsivos com HTML, CSS e JS.
 - **Desafios de Algoritmos**: Soluções para problemas de lógica e algoritmos em várias linguagens.
+
+[3-column-Preview](html-css/3-column-preview-card-component-main/index.html)
   
 Cada pasta ou arquivo corresponde a um projeto ou desafio específico.
 
