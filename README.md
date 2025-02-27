@@ -19,7 +19,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Chirp](html-css/chirp-starter-files/index.html)
    - [Developer Portfolio](html-css/developer-portfolio-starter-files/index.html)
    - [Four Card Feature Section](html-css/four-card-feature-section/index.html)
-   - [Gradie Sign Up](html-css/Gradie%20Sign%20Up%20Starter%20Files/index.html)
+   - [Gradie Sign Up](html-css/gradie-sign-up-starter-files/index.html)
    - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
    - [qr-code-component-main](html-css/qr-code-component-main/index.html)
    - [Snippet Template Starter Files](html-css/Snippet%20Template%20Starter%20Files/index.html)
