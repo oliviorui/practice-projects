@@ -18,7 +18,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Chat App CSS Illustration](html-css/chat-app-css-illustration/index.html)
    - [Chirp Starter Files](html-css/chirp-starter-files/index.html)
    - [Developer Portfolio Starter Files](html-css/developer-portfolio-starter-files/index.html)
-   - [four-card-feature-section-master](html-css/four-card-feature-section-master/index.html)
+   - [four-card-feature-section-master](html-css/four-card-feature-section/index.html)
    - [Gradie Sign Up Starter Files](html-css/Gradie%20Sign%20Up%20Starter%20Files/index.html)
    - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
    - [qr-code-component-main](html-css/qr-code-component-main/index.html)
