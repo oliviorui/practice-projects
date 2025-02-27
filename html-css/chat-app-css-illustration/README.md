@@ -11,7 +11,7 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ![Chat App CSS Illustration](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/chat-app-css-illustration-master/index.html)** 
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/chat-app-css-illustration/index.html)** 
 
 ## 📌 Funcionalidades  
 
