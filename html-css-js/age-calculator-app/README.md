@@ -29,7 +29,7 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 1. **Clone este repositório:**  
    ```bash
-   git clone https://github.com/oliviorui/project-practice.git
+   git clone https://github.com/oliviorui/practice-projects.git
    ```  
 2. **Acesse o diretório do desafio:**  
    ```bash
