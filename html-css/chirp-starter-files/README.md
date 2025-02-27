@@ -35,8 +35,7 @@ Este é um projeto baseado nos arquivos iniciais do **Chirp**, um aplicativo de 
 3. **Abra o `index.html` no navegador** para visualizar o projeto.  
 
 ## 🔧 Melhorias Futuras  
-
-🚀 Adicionar funcionalidades de postagem com JavaScript  
+ 
 🚀 Implementar animações ao interagir com o conteúdo  
 🚀 Melhorar a acessibilidade com ARIA e otimização de SEO  
 
