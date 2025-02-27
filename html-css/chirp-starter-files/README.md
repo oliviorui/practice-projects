@@ -1,11 +1,12 @@
 # 🐦 Chirp Starter Files  
 
-Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/) onde o objetivo é criar a interface de um aplicativo de microblog (Chirp) com design responsivo, utilizando HTML e CSS. Este repositório contém os arquivos iniciais para o desafio.
+Este é um projeto baseado nos arquivos iniciais do **Chirp**, um aplicativo de microblogging, desenvolvido para aprimorar minhas habilidades de front-end. O desafio foi retirado da plataforma **Codewell**, onde o objetivo principal é trabalhar com **HTML**, **CSS** e **design responsivo**.
 
 ## 🚀 Tecnologias Utilizadas  
 
-- **HTML** – Estruturação do conteúdo e layout.  
-- **CSS** – Estilização responsiva e adaptativa.  
+- **HTML** – Estruturação do conteúdo  
+- **CSS** – Estilização e layout responsivo  
+- **JavaScript** – Para funcionalidade e interatividade (se implementado posteriormente)  
 
 ## 📸 Preview  
 
@@ -13,17 +14,19 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/) onde o o
 
 💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/Chirp%20Starter%20Files/index.html)**
 
+💻 **[Confira o projeto ao vivo](#)** *(adicione o link do GitHub Pages aqui)*  
+
 ## 📌 Funcionalidades  
 
-✅ Design responsivo e adaptável para diferentes dispositivos  
-✅ Interface simples de microblog para publicação de mensagens  
-✅ Layout limpo e fácil de navegar  
+✅ Layout responsivo, adaptando-se a dispositivos móveis e desktop  
+✅ Interface visual de microblogging com posts e interações  
+✅ Design clean e moderno  
 
 ## 📂 Como Usar  
 
 1. **Clone este repositório:**  
    ```bash
-   git clone https://github.com/oliviorui/practice-project.git
+   git clone https://github.com/oliviorui/practice-projects.git
    ```  
 2. **Acesse o diretório do desafio:**  
    ```bash
@@ -33,9 +36,9 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/) onde o o
 
 ## 🔧 Melhorias Futuras  
 
-🚀 Adicionar interatividade com JavaScript para enviar e exibir mensagens  
-🚀 Melhorar acessibilidade com ARIA  
-🚀 Implementar versão com backend para postar e buscar mensagens  
+🚀 Adicionar funcionalidades de postagem com JavaScript  
+🚀 Implementar animações ao interagir com o conteúdo  
+🚀 Melhorar a acessibilidade com ARIA e otimização de SEO  
 
 ## 📜 Licença  
 
