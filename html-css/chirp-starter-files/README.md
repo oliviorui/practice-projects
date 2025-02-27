@@ -9,7 +9,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/) onde o o
 
 ## 📸 Preview  
 
-![Chirp Starter Files](./design/desktop-preview.jpg)  
+![Chirp Starter Files](./Design/Landing%20Page%20-%20Desktop%20View.png)  
 
 💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/Chirp%20Starter%20Files/index.html)**
 
