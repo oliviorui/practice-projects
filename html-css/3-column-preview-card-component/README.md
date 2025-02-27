@@ -33,7 +33,6 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ## 🔧 Melhorias Futuras  
 
-🚀 Adicionar efeitos de hover nos botões  
 🚀 Melhorar acessibilidade com ARIA  
 🚀 Implementar versão usando Tailwind ou Bootstrap  
 
