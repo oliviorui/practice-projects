@@ -28,7 +28,7 @@ Novos desafios serão adicionados à medida que avanço nos estudos.
 
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/oliviorui/practice-project.git
+   git clone https://github.com/oliviorui/practice-projects.git
    ```  
 2. Acesse o diretório do desafio desejado:  
    ```bash
