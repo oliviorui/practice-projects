@@ -18,11 +18,25 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [chat-app-css-illustration-master](html-css/chat-app-css-illustration-master/index.html)
    - [Chirp Starter Files](html-css/Chirp%20Starter%20Files/index.html)
    - [Developer Portfolio Starter Files](html-css/Developer%20Portfolio%20Starter%20Files/index.html)
+   - [four-card-feature-section-master](html-css/four-card-feature-section-master/index.html)
+   - [Gradie Sign Up Starter Files](html-css/Gradie%20Sign%20Up%20Starter%20Files/index.html)
+   - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
+   - [qr-code-component-main](html-css/qr-code-component-main/index.html)
+   - [Snippet Template Starter Files](html-css/Snippet%20Template%20Starter%20Files/index.html)
+   - [Spense Starter Files](html-css/Spense%20Starter%20Files/index.html)
+   - [testimonials-grid-section-main](html-css/testimonials-grid-section-main/index.html)
 - html-css-js
    - [age-calculator-app-main](html-css-js/age-calculator-app-main/index.html)
 - html-css-js-api
 
-Novos desafios serão adicionados à medida que avanço nos estudos.  
+Novos desafios serão adicionados à medida que avanço nos estudos. 
+
+## 💼 Portfólios  
+
+Além dos desafios, também desenvolvi alguns portfólios que demonstram minhas habilidades em desenvolvimento web:  
+
+- 🌎 [Portfólio 1.0](portfolios/portfolio%201.0/index.html)
+- 🖥️ [Portfólio 2.0 (Flexbox)](portfolios/portfolio%202.0%20(Flexbox)/home.html)
 
 ## 📌 Como Utilizar  
 
