@@ -12,7 +12,8 @@ Este repositório contém desafios de desenvolvimento web que concluí em plataf
 
 Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pasta contém um projeto específico e pode ser acessada diretamente:  
 
-- [3-column Preview Card](html-css/3-column-preview-card-component-main/index.html)  
+- html-css
+   - [3-column Preview Card](html-css/3-column-preview-card-component-main/index.html)  
 
 Novos desafios serão adicionados à medida que avanço nos estudos.  
 
