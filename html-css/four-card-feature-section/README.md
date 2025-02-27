@@ -11,7 +11,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), que con
 
 ![Four Card Feature Section Preview](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](html-css/four-card-feature-section/index.html)**
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/four-card-feature-section-master/index.html)**
 
 ## 📌 Funcionalidades  
 
