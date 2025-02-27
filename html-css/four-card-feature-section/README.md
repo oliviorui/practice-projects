@@ -33,8 +33,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), que con
 3. **Abra o `index.html` no navegador** para visualizar o projeto.  
 
 ## 🔧 Melhorias Futuras  
-
-🚀 Adicionar animações para interatividade  
+ 
 🚀 Melhorar a acessibilidade com ARIA e otimização de SEO  
 🚀 Experimentar com temas e variações de design  
 
