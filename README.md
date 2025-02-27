@@ -23,7 +23,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
    - [QR Code Component](html-css/qr-code-component/index.html)
    - [Snippet Template](html-css/snippet-template-starter-files/index.html)
-   - [Spense Template](html-css/Spense%20Starter%20Files/index.html)
+   - [Spense Template](html-css/spense-starter-files/index.html)
    - [testimonials-grid-section](html-css/testimonials-grid-section/index.html)
 - html-css-js
    - [Age Calculator App](html-css-js/age-calculator-app/index.html)
