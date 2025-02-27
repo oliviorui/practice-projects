@@ -11,7 +11,7 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ![3-Column Preview Card Component](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/3-column-preview-card-component-main/index.html)** *(adicione o link do GitHub Pages aqui)*  
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/3-column-preview-card-component-main/index.html)**
 
 ## 📌 Funcionalidades  
 
@@ -39,8 +39,4 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ## 📜 Licença  
 
-Este projeto está licenciado sob a [MIT License](LICENSE), permitindo seu uso, modificação e distribuição.  
-
----
-
-Se quiser personalizar mais alguma coisa, é só avisar! 🚀
+Este projeto está licenciado sob a [MIT License](LICENSE), permitindo seu uso, modificação e distribuição.

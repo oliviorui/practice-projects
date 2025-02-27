@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Titulos';
+    src: url('fonts/BigShouldersDisplay-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Conteudo';
+    src: url('fonts/LexendDeca-VariableFont_wght.ttf') format('trutype');
+}
+
+body {
+    font-family: 'Conteudo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+img { width: 60px; }
+
+h1 { 
+    font-family: 'Titulos'; 
+    font-size: 2em;
+    font-weight: 700;
+     color: hsl(0, 0%, 95%); }
+
+p { font-size: 1.1em; color: hsla(0, 0%, 100%, 0.75); }
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 470px;
+    margin: 106px auto;
+    align-content: center;
+    align-items: center;
+}
+
+.alinhamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    column-gap: 20px;
+}
+
+.anime:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    transition: 0.4s;
+}
+
+.suvs { background-color: hsl(184, 100%, 22%); transition: 0.4s;}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    transition: 0.4s;
+}
+
+button {
+    background-color: transparent;
+    padding: 13px;
+    width: 150px;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: hsla(0, 0%, 95%, 0.4);
+    border: 1px solid hsla(0, 0%, 95%, 0.4);
+    cursor: pointer;
+    color: rgb(57, 50, 50);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 550px) {
+    .blocks {
+        flex-wrap: wrap;
+        width: 70%;
+        height: 10%;
+    }
+
+    .sedan { border-radius: 10px 10px 0 0; }
+    .luxury { border-radius: 0 0 10px 10px; }
+}
