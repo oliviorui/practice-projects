@@ -3,15 +3,6 @@
     padding: 0;
 }
 
-.error {
-    color: hsl(0, 100%, 67%);
-    font-size: 0.9em;
-}
-
-input.invalid {
-    border-color: hsl(0, 100%, 67%);
-}
-
 @font-face {
     font-family: 'Content';
     src: url('font/Poppins-Light.ttf');
@@ -21,20 +12,20 @@ input.invalid {
     font-family: 'Content-bold';
     src: url('font/Poppins-BoldItalic.ttf');
 }
+
 body {
     background-color: hsl(0, 0%, 94%);
     overflow: hidden;
 }
+
 #main-content {
     background-color: white;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     margin: 20vh auto;
     padding: 40px;
-
     border-radius: 10px 10px 150px 10px;
     height: 350px;
     width: 450px;
@@ -43,10 +34,18 @@ body {
 
 form {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
     gap: 20px;
 }
 
 label {
+    font-size: 0.7em;
     color: hsl(0, 1%, 44%);
     font-weight: 600;
     display: block;
@@ -80,35 +79,57 @@ input[type="number"]::placeholder {
     color: hsl(0, 1%, 44%);
 }
 
-input[type="image"] {
-    background-color: hsl(259, 100%, 65%);
-    border-radius: 50%;
-    width: 35px;
-    padding: 10px;
+.submit-container {
     position: relative;
-    top: 2px;
-    left: 400px;
-    transition: .3s ease-in-out;
-}
-
-input[type="image"]:hover {
-    background-color: hsl(0, 0%, 8%);
-    transition: .3s ease-in-out;
+    width: 100%;
 }
 
 hr {
-    width: 398px;
-    margin-top: -25px;
+    width: 100%;
+    margin-top: 20px;
     margin-bottom: 25px;
     color: hsla(0, 0%, 94%, 0.325);
+}
+
+.submit-button {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    width: 45px;
+    padding: 10px;
+    position: absolute;
+    right: -2px;
+    bottom: -5px;
+    transition: .3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: hsl(0, 0%, 8%);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.result-container {
+    margin-top: 20px;
 }
 
 p {
     font-size: 50px;
     font-family: 'Content-bold';
-    text-align: right;
+    text-align: left;
 }
 
 span {
     color: hsl(259, 100%, 65%);
+}
+
+@media (max-width: 600px) {
+    #main-content {
+        width: 75vw;
+    }
+
+    .submit-button {
+        right: 150px;
+        bottom: -5px;
+        transition: .3s ease-in-out;
+    }
 }
