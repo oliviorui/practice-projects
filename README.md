@@ -24,7 +24,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [QR Code Component](html-css/qr-code-component/index.html)
    - [Snippet Template](html-css/snippet-template-starter-files/index.html)
    - [Spense Template](html-css/spense-starter-files/index.html)
-   - [testimonials-grid-section](html-css/testimonials-grid-section/index.html)
+   - [Testimonials Grid Section](html-css/testimonials-grid-section/index.html)
 - html-css-js
    - [Age Calculator App](html-css-js/age-calculator-app/index.html)
 - html-css-js-api
