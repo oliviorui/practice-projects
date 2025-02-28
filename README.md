@@ -35,8 +35,9 @@ Novos desafios serão adicionados à medida que avanço nos estudos.
 
 Além dos desafios, também desenvolvi alguns portfólios que demonstram minhas habilidades em desenvolvimento web:  
 
-- 🌎 [Portfólio 1.0](portfolios/portfolio%201.0/index.html)
-- 🖥️ [Portfólio 2.0 (Flexbox)](portfolios/portfolio%202.0%20(Flexbox)/home.html)
+- [Portfólio 1.0](portfolios/portfolio%201.0/index.html)
+- [Portfólio 2.0 (Flexbox)](portfolios/portfolio%202.0%20(Flexbox)/home.html)
+- [Portfólio 2.1 (Responsivo)](portfolios/portfolio%202.1%20(responsivo)/home.html)
 
 ## 📌 Como Utilizar  
 
