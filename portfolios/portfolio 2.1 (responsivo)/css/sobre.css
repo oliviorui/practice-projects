@@ -173,26 +173,3 @@
         width: 100vw;
     }
 }
-/*
-@media (min-width: 900px) {
-    .comentario { padding: 100px 20px;}
-
-    .design { gap: 100px; }
-
-    .design img { width: 550px; height: 350px; }
-
-    .first, .third {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 50px;
-    }
-
-    .second {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-around;
-        gap: 50px;
-    }
-}*/
