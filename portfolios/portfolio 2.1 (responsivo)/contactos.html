@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+    
+    <title>Portfólio - Contactos</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="menu">
+            <h1 class="cabecalho-titulo">Portfólio</h1>
+            <nav class="cabecalho-menu">
+                <a class="cabecalho-menu-item" href="index.html">Home Page</a>
+                <a class="cabecalho-menu-item" href="sobre.html">Sobre Mim</a>
+                <a class="cabecalho-menu-item" href="curriculo.html">Currículo</a>
+            </nav>
+            <img src="img/icons/hamburger-menu-white.svg" alt="Hamburger">
+        </div>
+        <div class="introducao container">
+            <h1 class="introducao-bemvindo">Entre em contacto!</h1>
+            <p class="introducao-texto">Nesta sessão, compartilho algumas das formas pelas quais pode me contactar.</p>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <p class="email">Contacte-me através do endereço: <a id="email-link" href="mailto:oliviorui@gmail.com" target="_blank">oliviorui@gmail.com</a> ou pelo número (+258) 84 144 4825.</p>
+        <p class="email">Pode ainda me contactar atravês das minha redes sociais (links presentes no rodapé).</p>
+
+        <form action="enviar-email" class="formulario">
+            <fieldset>
+                <legend>Envie-me uma mensagem</legend>
+
+                <div>
+                    <label for="name">Email</label>
+                    <input type="email" placeholder="pedromatos@exemplo.com" autofocus>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <input type="text" placeholder="Digite aqui a sua mensagem">
+                </div>
+
+                <section class="termos">
+                    <input type="checkbox" name="inscrever" id="inscrever" checked>
+                    <label for="inscrever">Receber actualizações frequentes</label>
+                </section>
+
+                <section>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </section>
+            </fieldset>
+
+            
+        </form>
+    </main>
+
+
+    <footer class="rodape">
+        <section class="rodape-info container">
+            <div class="rodape-info-pages">
+                <h2 class="rodape-info-pages-titulo">Explore as páginas</h2>
+                <nav class="rodape-info-pages-menu">
+                    <a class="rodape-info-pages-menu-item" href="index.html">Home Page</a>
+                    <a class="rodape-info-pages-menu-item" href="sobre.html">Sobre Mim</a>
+                    <a class="rodape-info-pages-menu-item" href="curriculo.html">Curriculo</a>
+                </nav>
+            </div>
+
+            <div class="informacao">
+                <h2>Informação</h2>
+                <nav>
+                    <a href="#">Cell: (+258) 84 450 7076</a>
+                    <a href="#">Web Developer</a>
+                    <a href="#">Maputo, Mozambique</a>
+                </nav>
+            </div>
+
+            <div class="rodape-redes">
+                <h2 class="rodape-redes-titulo">Siga-me nas redes sociais</h2>
+                <nav class="rodape-redes-menu">
+                    <a href="https://www.linkedin.com/in/olivio-rui-80b5982a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img class="rodape-redes-menu-item" src="img/icons/icon-linkedin.png" alt="Linkedin" title="Linkedin"></a>
+                    <a href="https://github.com/oliviorui" target="_blank"><img class="rodape-redes-menu-item" src="img/icons/icon-github.png" alt="Github" title="Github"></a>
+                    <a href="https://www.instagram.com/olivio.rui" target="_blank"><img class="rodape-redes-menu-item" src="img/icons/icon-instagram.png" alt="Instagram" title="Instagram"></a>
+                    <a href="https://x.com/rui_olivio" target="_blank"><img class="rodape-redes-menu-item" src="img/icons/icon-twitter.png" alt="Twitter/X" title="Twiter/X"></a>
+                    <a href="https://wa.me/message/IBUDV67OBJFUE1" target="_blank"><img class="rodape-redes-menu-item" src="img/icons/icon-whatsapp.png" alt="Whatsapp" title="Whatsapp"></a>
+                    <a href="https://t.me/oliviorui" target="_blank"><img class="rodape-redes-menu-item" src="img/icons/icon-telegram.png" alt="Telegram" title="Telegram"></a>
+                </nav>
+            </div>
+        </section>
+
+        <section class="rodape-direitos">
+            <div class="rodape-direitos-reservados">
+                <p>©2023 Olívio Rui Cumbe. Todos os direitos reservados.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

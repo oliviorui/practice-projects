@@ -1,0 +1,82 @@
+.main-container { padding: 50px;}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #EDF6E1; 
+}
+
+p {     
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #ebd4947e;
+    
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: #94ebdd13;
+
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.174);
+    padding: 40px 30px;
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+form fieldset div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form fieldset section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+form fieldset .termos {
+    gap: 15px;
+    justify-content: left;
+}
+
+form fieldset legend {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+form fieldset label {
+    font-size: 1.1em;
+}
+
+form fieldset div input {
+    padding: 13px 30px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 600px) {
+    .main-container { padding: 100px 150px;}
+}
+
+@media (min-width: 900px) {
+    .main-container { padding: 100px 250px;}
+}

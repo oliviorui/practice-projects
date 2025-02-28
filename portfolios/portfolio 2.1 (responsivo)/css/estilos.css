@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'titulos';
+    src: url('../fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf') format('truetype'), 
+    url('../fonts/Tilt_Neon/static/TiltNeon-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Manuscrito';
+    src: url('../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype'), 
+    url('../fonts/Dancing_Script/static/DancingScript-Bold.ttf') format('truetype'), 
+    url('../fonts/Dancing_Script/static/DancingScript-Medium.ttf'), format('trutype'), 
+    url('../fonts/Dancing_Script/static/DancingScript-Regular.ttf') format('truetype'), 
+    url('../fonts/Dancing_Script/static/DancingScript-SemiBold.ttf') format('trutype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'),
+    url('../fonts//Ubuntu/Ubuntu-LightItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu-MediumItalic.ttf') format('trutype');
+}
+
+.meu-nome { font-family: 'Manuscrito';}
+
+* { margin: 0; padding: 0;}
+
+.container { padding: 5px 40px;}
+
+header { 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    background-image: url(../img/header.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #9AD2CB;
+    font-family: 'titulos';
+    
+    padding: 20px 40px;
+    backdrop-filter: blur(5px);
+
+    position: sticky;
+    top: 0;
+}
+
+header nav { display: flex; gap: 50px;}
+header nav a { text-decoration: none; font-size: 1.2em; color: #9AD2CB;}
+header h1 { font-size: 2.1em; }
+
+.introducao { font-family: 'Ubuntu';}
+.introducao h1 { 
+    font-size: 1.8em;
+    color: #EBD494;
+    text-align: center;
+}
+.introducao p { 
+    color: #D7EBBA; 
+    text-align: center; 
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+main { font-family: 'Ubuntu'; font-weight: 100;}
+
+footer { 
+    font-family: 'titulos'; 
+    display: flex; 
+    flex-direction: column;
+    gap: 30px;
+
+    background-color: #C3C496;
+}
+
+footer nav a { 
+    text-decoration: none; 
+    font-size: 1.1em; 
+    color: rgb(61, 58, 58);
+}
+
+footer p { font-size: 1.1em;}
+
+footer nav { margin: 15px auto;}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .rodape-info-pages-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .informacao nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-redes-menu {display: flex; gap: 15px;}
+
+footer img { width: 40px;}
+
+.rodape-direitos { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    footer { padding: 30px 0;}
+}
+
+@media (max-width: 900px) {
+    header nav { display: none; }
+}
+
+@media (min-width: 600px) {
+    .container { padding: 60px;}
+
+    header .menu { padding: 40px 60px;}
+    
+    header { height: 600px; gap: 100px; }
+
+    .introducao { margin: -80px auto; }
+
+    footer { padding-bottom: 20px;}
+
+    footer nav a, p { font-size: 1.2em; }
+}
+
+@media (min-width: 900px) {
+    .container { padding: 80px 100px; }
+    
+    header .menu { padding: 40px 100px; }
+    
+    header img { display: none; }
+
+    header { height: 725px; gap: 150px;}
+
+    footer section {
+        align-items: first baseline;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
