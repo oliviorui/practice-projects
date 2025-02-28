@@ -16,7 +16,7 @@ Este é um desafio concluído do [Frontend Mentor](https://www.frontendmentor.io
 
 ![Age Calculator App Preview](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css-js/age-calculator-app-main/index.html)**
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css-js/age-calculator-app/index.html)**
 
 ## 📌 Funcionalidades  
 
