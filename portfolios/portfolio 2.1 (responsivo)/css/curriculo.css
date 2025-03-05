@@ -45,7 +45,6 @@ main {
     color: #f5fcfb;
     font-size: 20pt;
     margin-bottom: 30px;
-    text-align: justify;
 }
 
 .descr-cont {
@@ -110,3 +109,32 @@ li { padding: 2px; }
 
 .tesstt {border-left: 3px solid #204d48;}
 #last {border-bottom: 3px solid #204d48;}
+
+
+@media (max-width: 801px) {
+    .perfil {
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px;
+    }
+
+    .perfil-foto {
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+    }
+
+    .descr-nome { font-size: 42pt; }
+
+    .conteudo {
+        margin: 40px 30px;
+    }
+
+    .paragrafo { margin: 15px 25px; }
+
+    .subtitulos { margin: 20px 25px; font-weight: 500; }
+
+    ul {
+        margin-left: 70px;
+    }
+}
