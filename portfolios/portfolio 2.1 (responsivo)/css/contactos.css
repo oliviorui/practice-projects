@@ -34,7 +34,7 @@ form fieldset {
     padding: 40px 30px;
 
     width: 50%;
-    margin: 0 auto;
+    margin-left: -34px;
 }
 
 form fieldset div {
