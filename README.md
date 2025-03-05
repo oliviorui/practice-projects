@@ -15,7 +15,6 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
 - html-css
    - [3-Column Preview Card Component](html-css/3-column-preview-card-component/index.html)
    - [Blog Preview Card](html-css/blog-preview-card/index.html)
-   - [Chat App CSS Illustration](html-css/chat-app-css-illustration/index.html)
    - [Chirp](html-css/chirp-starter-files/index.html)
    - [Developer Portfolio](html-css/developer-portfolio-starter-files/index.html)
    - [Four Card Feature Section](html-css/four-card-feature-section/index.html)
