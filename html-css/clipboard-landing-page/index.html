@@ -9,9 +9,13 @@
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <link rel="stylesheet" href="style.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { 
+        font-size: 11px; text-align: center; 
+        position: sticky;
+        bottom: 0;
+        margin: 10px;
+    }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -29,14 +33,14 @@
   </header>
 
   <main class="container">
-    <section>
+    <section id="apresentacao">
       <div>
         <h2>Keep track of your snippets</h2>
         <p>Clipboard instantly stores any item you copy in the cloud, 
           meaning you can access your snippets immediately on all your 
           devices. Our Mac and iOS apps will help you organize everything.</p>
       </div>
-      <div>
+      <div id="apr-comp">
         <img class="imgs" src="images/image-computer.png" alt="Computer Image">
         <div>
           <h3>Quick Search</h3>
@@ -51,18 +55,20 @@
       </div>
     </section>
 
-    <section>
-      <h2>Access Clipboard anywhere</h2>
-      <p> Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+    <section id="apresentacao2">
+      <div>
+          <h2>Access Clipboard anywhere</h2>
+          <p> Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+      </div>
       <img class="imgs" src="images/image-devices.png" alt="Devices Image">
     </section>
 
-    <section>
+    <section id="apresentacao3">
       <div>
         <h2>Supercharge your workflow</h2>
         <p>We’ve got the tools to boost your productivity.</p>
       </div>
-      <div>
+      <div id="apr-cards">
         <div>
           <img src="images/icon-blacklist.svg" alt="">
           <h3>Create blacklists</h3>
@@ -89,7 +95,7 @@
       <img src="images/logo-vector-graphics.png" alt="">
     </section>
 
-    <section>
+    <section id="lastid">
       <h2>Clipboard for iOS and Mac OS</h2>
       <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
       <div class="buttons">
@@ -100,19 +106,21 @@
   </main>
 
   <section id="footer">
-    <img id="logo" src="images/logo.svg" alt="">
-    <ul>
-      <li>FAQs</li>
-      <li>Contact Us</li>
-    </ul>
-    <ul>
-      <li>Privacy Policy</li>
-      <li>Press Kit</li>
-    </ul>
-    <ul>
-      <li>Install Guide</li>
-    </ul>
-    <div>
+    <div id="footer1">
+        <img id="logo" src="images/logo.svg" alt="">
+        <ul>
+          <li>FAQs</li>
+          <li>Contact Us</li>
+        </ul>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Press Kit</li>
+        </ul>
+        <ul>
+          <li>Install Guide</li>
+        </ul>
+    </div>
+    <div id="footer2">
       <img src="images/icon-facebook.svg" alt="">
       <img src="images/icon-twitter.svg" alt="">
       <img src="images/icon-instagram.svg" alt="">

@@ -45,6 +45,7 @@ p {
     color: hsl(201, 11%, 66%);
     margin-bottom: 50px;
     font-size: 1.12em;
+    line-height: 30px;
 }
 
 .buttons {
@@ -63,6 +64,7 @@ button {
     font-weight: 600;
     border: none;
     color: rgb(246, 239, 239);
+    cursor: pointer;
 }
 
 #first { background-color: hsl(171, 66%, 44%); }
@@ -82,13 +84,13 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
+    gap: 60px;
 
     margin: 150px 0;
 }
 
 #companies-icons img {
-    width: 200px;
+    width: 120px;
 }
 
 #footer {
@@ -99,22 +101,130 @@ section {
     padding: 40px 0;
 }
 
-#footer #logo {
+#footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer1 #logo {
     width: 50px;
     margin-bottom: 30px;
 }
 
-#footer div {
+#footer2 {
     display: flex;
     gap: 20px;
 }
 
+#footer2 img {
+    cursor: pointer;
+}
+
 li {
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: hsl(201, 11%, 66%);
     margin-bottom: 20px;
     font-size: 1.12em;
     list-style-type: none;
+    cursor: pointer;
 }
 
+li:hover { color: hsl(171, 66%, 44%); }
+
+#footer2 img:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+@media (min-width: 1440px) {
+    header {
+        background-image: url('images/bg-header-desktop.png');
+    }
+
+    #apresentacao {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 150px;
+    }
+
+    #apresentacao p {
+        padding: 0 390px;
+    }
+
+    #apr-comp {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    #apr-comp div, #apr-comp img {
+        width: 50vw;
+    }
+
+    #apr-comp h3, #apr-comp p {
+        padding: 0 150px;
+        text-align: left;
+    }
+
+    #apresentacao2 p {
+        padding: 0 400px;
+        margin-bottom: 130px;
+    }
+
+    #apresentacao2 img {
+        width: 65vw;
+    }
+
+    #apresentacao3 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #apr-cards {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 30px;
+        margin: 0 auto;
+
+        width: 90vw;
+    }
+
+    #apr-cards div {
+        width: 25vw;
+    }
+
+    #apr-cards img {
+        margin: 15px;
+    }
+
+    #companies-icons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+
+        margin-top: 50px;
+    }
+
+    #lastid p {
+        padding: 0 400px;
+    }
+
+    #footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #footer1 {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 100px;
+    }
+
+    li {
+        text-align: left;
+    }
+}
