@@ -22,6 +22,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Gradie Sign Up](html-css/gradie-sign-up-starter-files/index.html)
    - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
    - [QR Code Component](html-css/qr-code-component/index.html)
+   - [Recipe Page](html-css/recipe-page/index.html)
    - [Snippet Template](html-css/snippet-template-starter-files/index.html)
    - [Spense Template](html-css/spense-starter-files/index.html)
    - [Testimonials Grid Section](html-css/testimonials-grid-section/index.html)

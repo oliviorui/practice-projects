@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Titulos';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Conteudo';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Conteudo';
+}
+
+.container { padding: 0 40px; }
+
+hr { margin: 20px 40px; }
+
+h1 {
+    font-family: 'Titulos'; 
+    font-weight: 400; 
+    font-size: 2.3em;
+    color: hsl(24, 5%, 18%);
+    line-height: 40px;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: 'Titulos'; 
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 20px;
+    font-weight: 400; 
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.valores {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+p, li {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+li {
+    list-style-position: inside;
+    padding-bottom: 15px;
+}
+
+img { width: 100vw; }
+
+span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+}
+
+.prepare {
+    background-color: hsl(330, 100%, 98%);
+    margin: 30px 40px;
+    padding: 10px 30px;
+}
+
+.prepare li::marker { color: hsl(332, 51%, 32%); }
+
+.ingredients li::marker, ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+ 
+.nutrition ul {
+    list-style: none;
+    text-indent: 30px;
+    padding: 30px 0;
+}
+
+.nutrition hr { margin: -2px 0px 10px; }
+
+.nutrition ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
