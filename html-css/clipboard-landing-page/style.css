@@ -141,6 +141,14 @@ li:hover { color: hsl(171, 66%, 44%); }
         background-image: url('images/bg-header-desktop.png');
     }
 
+    .buttons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button { margin: 0;}
+
     #apresentacao {
         display: flex;
         flex-direction: column;
