@@ -21,6 +21,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Four Card Feature Section](html-css/four-card-feature-section/index.html)
    - [Gradie Sign Up](html-css/gradie-sign-up-starter-files/index.html)
    - [gustavoguanabara's site - Improved](html-css/gustavoguanabara.github.io%20-%20Improved/index.html)
+   -[Product Preview Card Component](html-css/product-preview-card-component/index.html)
    - [QR Code Component](html-css/qr-code-component/index.html)
    - [Recipe Page](html-css/recipe-page/index.html)
    - [Snippet Template](html-css/snippet-template-starter-files/index.html)
