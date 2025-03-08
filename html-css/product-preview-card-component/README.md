@@ -11,7 +11,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), onde o 
 
 ![Product Preview Card Component Preview](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/html-css/product-preview-card-component/index.html)** 
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/product-preview-card-component/index.html)** 
 
 ## 📌 Funcionalidades  
 
