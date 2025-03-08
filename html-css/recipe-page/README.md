@@ -11,7 +11,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), onde o 
 
 ![Recipe Page Preview](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/recipe-page/index.html)** *(adicione o link do GitHub Pages aqui)*  
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/recipe-page/index.html)** 
 
 ## 📌 Funcionalidades  
 
