@@ -24,6 +24,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [QR Code Component](html-css/qr-code-component/index.html)
    - [Recipe Page](html-css/recipe-page/index.html)
    - [Snippet Template](html-css/snippet-template-starter-files/index.html)
+   - [Social Links Profile](html-css/social-links-profile/index.html)
    - [Spense Template](html-css/spense-starter-files/index.html)
    - [Testimonials Grid Section](html-css/testimonials-grid-section/index.html)
 - html-css-js
