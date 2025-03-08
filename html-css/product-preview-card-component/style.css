@@ -24,7 +24,8 @@ body {
 
 main {
     background-color: hsl(0, 0%, 100%);
-    width: 323px; height: 610px;
+    width: 323px; 
+    height: 610px;
     border-radius: 10px;
 }
 
@@ -72,7 +73,7 @@ p {
     font-family: 'Montserrat';
     color: hsl(228, 12%, 48%);
     font-weight: 500;
-    font-size: 0.86em;
+    font-size: 14px;
     line-height: 20px;
 }
 
@@ -81,7 +82,7 @@ button {
     color: hsl(0, 0%, 100%);
     font-size: 0.9em;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 270px; height: 40px;
     font-weight: 700;
     transition: .3s ease-in-out;
@@ -95,4 +96,42 @@ button {
 button:hover {
     background-color: hsl(158, 42%, 18%);
     transition: .3s ease-in-out;
+}
+
+@media (min-width: 1280px) {
+    .container { padding: 35px; }
+
+    #mobile-img { display: none; }
+    
+    body { overflow: hidden; }
+
+    #desktop-img {
+        display: block;
+        border-radius: 10px 0 0 10px;
+        width: 323px; 
+        height: 480px;
+    }
+    
+    main {
+        display: flex;
+        width: 650px; 
+        height: 480px;
+    }
+
+    h1 {
+        font-size: 2.3em;
+        margin: 25px 0;
+    }
+
+    p {
+        font-size: 0.98em;
+        line-height: 24px;
+    }
+
+    #price { margin: 40px 0 35px; }
+
+    button {
+        font-size: 0.97em;
+        height: 45px;
+    }
 }
