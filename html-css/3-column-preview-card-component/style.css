@@ -35,6 +35,7 @@ p { font-size: 1.1em; color: hsla(0, 0%, 100%, 0.75); }
     margin: 106px auto;
     align-content: center;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .alinhamentos {
