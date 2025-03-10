@@ -83,6 +83,10 @@ p {
     width: 20px;
 }
 
+.share-button-share {
+    background-color: hsl(214, 17%, 51%);
+}
+
 .share-div {
     display: none;
     align-items: center;
@@ -98,10 +102,11 @@ p {
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
 .share-button-share img {
-    width: 50px;
-    margin: -5.2px;
+    width: 25px;
 }
+
 .share-div div {
     display: flex;
     gap: 20px;
