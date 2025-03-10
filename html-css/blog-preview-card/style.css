@@ -13,8 +13,11 @@
 
 body {
     background-color: hsl(47, 88%, 63%);
-    max-width: 1440px;
-    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     font-family: 'Font', 'Roboto', sans-serif;
 }
 
