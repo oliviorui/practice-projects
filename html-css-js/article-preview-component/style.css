@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('assets/fonts/Manrope-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope';
+}
+
+.container {
+    padding: 30px;
+}
+
+.drawers {
+    width: 330px;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 330px;
+    height: 475px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(217, 19%, 35%);
+    font-size: 1.07em;
+    font-weight: 700;
+}
+
+h4 {
+    color: hsl(217, 19%, 35%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    font-size: 13.7px;
+    margin: 10px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.avatar {
+    width: 45px; height: 45px;
+    border-radius: 50px;
+    margin-right: -25px;
+}
+
+.profile p {
+    font-weight: 300;
+    margin-top: 2px;
+}
+
+.share-button-profile, .share-button-share {
+    width: 40px; height: 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.share-button-profile img {
+    width: 20px;
+}
+
+.share-div {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 0 0 10px 10px;
+    width: 330px; height: 63px;
+    margin-left: -30px;
+    margin-top: 25px;
+}
+
+.share-div p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.share-button-share img {
+    width: 50px;
+    margin: -5.2px;
+}
+.share-div div {
+    display: flex;
+    gap: 20px;
+}
