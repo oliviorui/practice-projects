@@ -67,6 +67,7 @@ form label {
     color: hsl(234, 29%, 20%);
     font-weight: 700;
     font-size: 12px;
+    width: 90vw;
 
     display: flex;
     justify-content: space-between;
