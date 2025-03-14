@@ -67,6 +67,9 @@ form label {
     color: hsl(234, 29%, 20%);
     font-weight: 700;
     font-size: 12px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 input {
@@ -88,7 +91,6 @@ input::placeholder {
     color: hsl(4, 100%, 67%);
     font-weight: 700;
     font-size: 12px;
-    margin-left: 194px;
 }
 
 .error-email-input {
