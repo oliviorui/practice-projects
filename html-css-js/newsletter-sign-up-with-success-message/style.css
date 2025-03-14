@@ -22,6 +22,10 @@ body {
 main {
     background-color: hsl(0, 0%, 100%);
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #desktop-img {
@@ -120,11 +124,13 @@ button {
     width: 89vw;
 
     cursor: pointer;
+    transition: .9s ease-in-out;
 }
 
 button:hover {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,101,1) 0%, rgba(252,176,69,1) 100%);
+    transition: .9s ease-in-out;
 }
 
 #success-message img {
@@ -142,4 +148,88 @@ button:hover {
 
 .hidden {
     display: none;
+}
+
+@media (min-width: 1000px) {
+    .container { 
+        padding: 80px 30px;
+        max-width: 400px;
+    }
+
+    body {
+        background-color: hsl(234, 29%, 20%);
+    }
+
+    #mobile-img {
+        display: none;
+    }
+
+    #desktop-img {
+        display: block;
+        height: 515px;
+        margin: 20px;
+    }
+
+    main {
+        background-color: hsl(0, 0%, 100%);
+        width: 850px;
+        height: 560px;
+        border-radius: 25px;
+    }
+
+    #sign-up-form, #success-message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #sign-up-form.hidden, #success-message.hidden {
+        display: none;
+    }
+    
+    #sign-up-form {
+        flex-direction: row-reverse;
+    }
+
+    form label, button {
+        width: auto;
+    }
+
+    h1 {   
+        font-size: 3.2em;
+    }
+    p {
+        font-size: 16px;
+    }
+    
+    ul {
+        font-size: 17px;
+    }
+
+    input {
+        width: auto;
+        height: 25px;
+    }
+
+    #success-message {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 25px;
+    }
+
+    #success-message p {
+        margin-bottom: 60px;
+    }
+
+    #success-message img {
+        margin-top: -30px;
+    }
+
+    #success-message button {
+        width: 26vw;
+    }
+    
 }
