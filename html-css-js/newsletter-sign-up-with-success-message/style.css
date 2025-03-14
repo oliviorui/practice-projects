@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.container { padding: 25px; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 100vw;
+}
+
+#desktop-img {
+    display: none;
+}
+
+#mobile-img {
+    width: 100vw; height: 45vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: hsl(235, 18%, 26%);
+
+    margin: 15px 0;
+}
+
+ul {
+    list-style: url('assets/images/icon-list.svg');
+    color: hsl(235, 18%, 26%);
+    line-height: 30px;
+    list-style-position: inside;
+    font-size: 19px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    margin-top: 30px;
+}
+
+form label {
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+input {
+    width: 84%;
+    height: 30px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid hsl(231, 7%, 60%);
+
+    font-size: 19px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 18px;
+}
+
+#error-email {
+    color: hsl(4, 100%, 67%);
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 194px;
+}
+
+.error-email-input {
+    color: hsl(4, 100%, 67%);
+    background-color: #FFE8E6;
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+.error-email-input::placeholder {
+    color: hsl(4, 100%, 67%);
+}
+
+.error-email-input::-moz-focus-outer {
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+button {
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+
+    border-radius: 8px;
+    border: none;
+    font-size: 19px;
+
+    padding: 16px 0;
+    width: 380px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,101,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+#success-message img {
+    margin: 40px 0;
+}
+
+#success-message p {
+    margin-bottom: 250px;
+    font-size: 18px;
+}
+
+#user-email {
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
