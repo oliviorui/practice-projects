@@ -26,6 +26,7 @@
 
 body {
     background-color: var(--very-dark-blue);
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
@@ -197,6 +198,10 @@ body {
 
 
 @media (max-width: 500px) {
+    body {
+        overflow: auto;
+        min-height: 100vh;
+    }
     .cards-container {
         padding: 20px 0;
         grid-template-columns: 1fr;
