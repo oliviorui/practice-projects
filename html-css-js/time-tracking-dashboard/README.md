@@ -12,7 +12,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), onde o 
 
 ![Time Tracking Dashboard Preview](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo]((https://oliviorui.github.io/practice-projects/html-css-js/time-tracking-dashboard/index.html))**
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css-js/time-tracking-dashboard/index.html)**
 
 ## 📌 Funcionalidades  
 
