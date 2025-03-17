@@ -34,7 +34,7 @@ function populateDOM(param) {
 
                 if (timeframe) {
                     div.querySelector('h3').textContent = `${timeframe.current}hrs`;
-                    div.querySelector('p').textContent = `Previous ${msg} ${timeframe.previous}hrs`;
+                    div.querySelector('p').textContent = `Last ${msg} ${timeframe.previous}hrs`;
                 }
             }
         }
