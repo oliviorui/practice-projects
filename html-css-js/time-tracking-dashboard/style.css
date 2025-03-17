@@ -26,7 +26,6 @@
 
 body {
     background-color: var(--very-dark-blue);
-    overflow: hidden;
 
     display: flex;
     flex-direction: column;
