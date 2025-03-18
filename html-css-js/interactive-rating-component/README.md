@@ -12,7 +12,7 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), onde o 
 
 ![Interactive Rating Component Preview](./design/desktop-preview.jpg)  
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css-js/interative-rating-component/index.htm)**
+💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css-js/interative-rating-component/index.html)**
 
 ## 📌 Funcionalidades  
 
