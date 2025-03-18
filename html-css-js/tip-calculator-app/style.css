@@ -155,20 +155,6 @@ input.error-inp { border: 2px solid hsl(4, 100%, 67%); }
     transition: .3s ease-in-out;
 }
 
-@media (min-width: 768px) {
-    body { height: 115vh; }
-
-    main { max-width: 70vw; }
-
-    input[type="number"] { width: 60vw; }
-
-    .tip { width: 28vw; }
-    
-    #custom-tip { width: 28vw; }
-
-    .total button { width: 53vw; }
-}
-
 @media (min-width: 1281px) {
     body {
         overflow: hidden;
