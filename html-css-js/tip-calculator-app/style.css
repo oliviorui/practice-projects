@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('assets/font/SpaceMono-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SpaceMono';
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 150vh;
+    background-color: hsl(185, 41%, 84%);
+}
+
+main {
+    max-width: 100vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 35px;
+}
+
+label {
+    font-size: 16px;
+    color: hsl(186, 14%, 43%);
+}
+
+#people-lbl {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="number"]{
+    width: 80vw;
+    padding: 10px 20px;
+    text-align: right;
+    border: 2px solid hsl(189, 41%, 97%);
+    border-radius: 5px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    font-size: 24px;
+    -moz-appearance: textfield;
+    cursor: pointer;
+}
+
+input::placeholder { color: hsl(184, 14%, 56%); }
+
+input:focus {
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#bill, #people {
+    margin: 10px 0 40px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+
+#people { background-image: url('assets/images/icon-person.svg'); }
+
+#bill { background-image: url('assets/images/icon-dollar.svg'); }
+
+.error-lbl { display: none; color: hsl(4, 100%, 67%); }
+
+input.error-inp { border: 2px solid hsl(4, 100%, 67%); }
+
+.tip-divs {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px 0 35px;
+}
+
+.tip {
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    width: 35vw;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+#custom-tip { width: 35vw; }
+
+.tip:hover {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(185, 41%, 84%);
+    transition: .3s ease-in-out;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsl(183, 100%, 15%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.total h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+.total p {
+    color: hsl(184, 14%, 56%);
+    font-size: 12px;
+}
+
+.total span {
+    color: hsl(172, 67%, 45%);
+    font-size: 32px;
+    text-align: right;
+}
+
+.tip-amount, .final-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total button {
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 5px;
+    width: 70vw;
+    height: 50px;
+    color: hsl(183, 100%, 15%);
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.total button:hover {
+    background-color: hsl(185, 41%, 84%);
+    transition: .3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    body { height: 115vh; }
+
+    main { max-width: 70vw; }
+
+    input[type="number"] { width: 60vw; }
+
+    .tip { width: 28vw; }
+    
+    #custom-tip { width: 28vw; }
+
+    .total button { width: 53vw; }
+}
+
+@media (min-width: 1281px) {
+    body {
+        overflow: hidden;
+        height: 110vh;
+    }
+
+    main {
+        max-width: 66.5vw;
+        height: 69vh;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    input[type="number"] { width: 30vw; }
+
+    .tip-divs {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        margin: 20px 0 40px;
+    }
+
+    .tip { width: 9vw; }
+    
+    #custom-tip { width: 9vw; }
+
+    .total { height: 60vh; }
+
+    .total h2 { font-size: 16px; }
+    
+    .total p { font-size: 14px; }
+    
+    .total span { font-size: 40px; }
+    
+    .total button {
+        margin-top: 180px;
+        width: 25vw;
+    }
+}

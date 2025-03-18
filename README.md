@@ -33,6 +33,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
    - [Article Preview Component](html-css-js/article-preview-component/index.html)
    - [Newsletter Sign-up Form with Success Message](html-css-js/newsletter-sign-up-with-success-message/index.html)
    - [Time Tracking Dashboard](html-css-js/time-tracking-dashboard/index.html)
+   - [Tip Calculator App](html-css-js/tip-calculator-app/index.html)
 - html-css-js-api
 
 Novos desafios serão adicionados à medida que avanço nos estudos. 
