@@ -76,7 +76,7 @@ p, div {
 
 button {
     background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
     border: none;
     padding: 14px 110px;
     border-radius: 25px;
