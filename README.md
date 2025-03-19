@@ -31,6 +31,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
 - html-css-js
    - [Age Calculator App](html-css-js/age-calculator-app/index.html)
    - [Article Preview Component](html-css-js/article-preview-component/index.html)
+   - [FAQ Accordion Card](html-css-js/faq-accordion/index.html)
    - [Interative Rating Component](html-css-js/interactive-rating-component/index.html)
    - [Newsletter Sign-up Form with Success Message](html-css-js/newsletter-sign-up-with-success-message/index.html)
    - [Time Tracking Dashboard](html-css-js/time-tracking-dashboard/index.html)
