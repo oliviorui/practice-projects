@@ -1,4 +1,3 @@
-
 # Frontend Mentor - Blog Preview Card Solution
 
 This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-8J5glGxIH). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
