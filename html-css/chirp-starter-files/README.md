@@ -6,15 +6,12 @@ Este é um projeto baseado nos arquivos iniciais do **Chirp**, um aplicativo de 
 
 - **HTML** – Estruturação do conteúdo  
 - **CSS** – Estilização e layout responsivo  
-- **JavaScript** – Para funcionalidade e interatividade (se implementado posteriormente)  
 
 ## 📸 Preview  
 
 ![Chirp Starter Files](./Design/Landing%20Page%20-%20Desktop%20View.png)  
 
 💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/Chirp%20Starter%20Files/index.html)**
-
-💻 **[Confira o projeto ao vivo](#)** *(adicione o link do GitHub Pages aqui)*  
 
 ## 📌 Funcionalidades  
 
