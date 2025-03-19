@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-0sCNCChJaS)
-- Live Site URL: [Live site URL](https://oliviorui.github.io/practice-projects/html-css/3-column-preview-card-component/index.html)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-component-0sCNCChJaS](https://www.frontendmentor.io/solutions/3-column-preview-card-component-0sCNCChJaS)
+- Live Site URL: [https://oliviorui.github.io/practice-projects/html-css/3-column-preview-card-component/index.html](https://oliviorui.github.io/practice-projects/html-css/3-column-preview-card-component/index.html)
 
 ## My process
 
