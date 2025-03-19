@@ -9,6 +9,14 @@
     font-family: 'Manrope';
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: static;
+    bottom: 0;
+    margin: 10px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
 .container { padding: 30px; }
 
 .drawers {

@@ -11,6 +11,15 @@
 
 .container { padding: 25px; }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: static;
+    bottom: 0;
+    margin: 10px;
+    color: rgb(242, 148, 17);
+}
+.attribution a { color: hsl(16, 92%, 47%); }
+
 body {
     display: flex;
     flex-direction: column;

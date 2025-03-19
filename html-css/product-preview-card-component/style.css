@@ -13,6 +13,14 @@
     padding: 0;
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: static;
+    bottom: 0;
+    margin: 10px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
 body { 
     background-color: hsl(30, 38%, 92%); 
     display: flex;

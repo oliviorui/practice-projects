@@ -24,6 +24,15 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: static;
+    bottom: 0;
+    margin: 10px;
+    color: white;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
 body {
     background-color: var(--very-dark-blue);
     overflow: hidden;
