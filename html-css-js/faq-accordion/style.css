@@ -55,13 +55,13 @@ hgroup {
     cursor: pointer;
 }
 
-hgroup h4 {
+hgroup h2 {
     font-weight: 600;
     font-size: 18px;
     transition: .4s ease;
 }
 
-hgroup h4:hover {
+hgroup h2:hover {
     color: #AD28EB;
     transition: .4s ease;
 }
@@ -90,7 +90,7 @@ p {
 
     hgroup { margin: 25px 0; }
 
-    h4 { font-size: 16px; }
+    h2 { font-size: 16px; }
 
     p { font-size: 15px; }
 }
