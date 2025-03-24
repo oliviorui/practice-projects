@@ -1,42 +1,98 @@
-# 📦 Four Card Feature Section  
+# Frontend Mentor - Four Card Feature Section Solution
 
-Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io/), que consiste em criar uma seção de recursos (feature section) com quatro cards. O objetivo é criar uma interface limpa e responsiva, usando **HTML** e **CSS**. O projeto tem como foco o design e a responsividade, sem a necessidade de JavaScript.
+This is a solution to the [Four Card Feature Section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## 🚀 Tecnologias Utilizadas  
+## Table of contents
 
-- **HTML** – Estruturação do conteúdo  
-- **CSS** – Estilização e layout responsivo  
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## 📸 Preview  
+## Overview
 
-![Four Card Feature Section Preview](./design/desktop-preview.jpg)  
+### The challenge
 
-💻 **[Confira o projeto ao vivo](https://oliviorui.github.io/practice-projects/html-css/four-card-feature-section/index.html)**
+Users should be able to:
 
-## 📌 Funcionalidades  
+- View the optimal layout for the component depending on their device's screen size
 
-✅ Layout responsivo, com cards que se adaptam ao tamanho da tela  
-✅ Cards interativos com ícones e texto  
-✅ Design clean e moderno, com foco no conteúdo e na apresentação visual  
-✅ Uso de Flexbox ou Grid para garantir a estruturação adequada  
+### Screenshot
 
-## 📂 Como Usar  
+![](design/screenshot.png)
 
-1. **Clone este repositório:**  
-   ```bash
-   git clone https://github.com/oliviorui/practice-projects.git
-   ```  
-2. **Acesse o diretório do desafio:**  
-   ```bash
-   cd four-card-feature-section
-   ```  
-3. **Abra o `index.html` no navegador** para visualizar o projeto.  
+### Links
 
-## 🔧 Melhorias Futuras  
- 
-🚀 Melhorar a acessibilidade com ARIA e otimização de SEO  
-🚀 Experimentar com temas e variações de design  
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-ygh8C5MVKv](https://www.frontendmentor.io/solutions/four-card-feature-section-ygh8C5MVKv)
+- Live Site URL: [https://oliviorui.github.io/practice-projects/html-css/four-card-feature-section/index.html](https://oliviorui.github.io/practice-projects/html-css/four-card-feature-section/index.html)
 
-## 📜 Licença  
+## My process
 
-Este projeto está licenciado sob a [MIT License](LICENSE), permitindo seu uso, modificação e distribuição.  
+### Built with
+
+- Semantic HTML5 markup
+- CSS Flexbox
+- Mobile-first workflow
+- Custom fonts with `@font-face`
+
+### What I learned
+
+This project helped me improve my **CSS layout skills**, especially working with **Flexbox** to structure components in different screen sizes.
+
+One of the main challenges was organizing the **cards** in a structured and responsive way:
+
+```css
+.blocks, .central-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media (min-width: 1000px) {
+    .blocks { 
+        flex-direction: row; 
+        align-items: center;
+    }
+}
+```
+
+Additionally, I implemented a **hover effect** on the attribution link:
+
+```css
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none; 
+}
+
+.attribution a:hover { 
+    text-decoration: underline; 
+}
+```
+
+### Continued development
+
+Moving forward, I want to:
+
+- Improve **hover effects** and animations for better user interaction
+- Optimize **font sizes and spacing** for better readability on different screen sizes
+- Explore **CSS Grid** for more complex layouts
+
+### Useful resources
+
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Helped me structure the layout efficiently.
+- [MDN Web Docs - Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) - A great reference for making sites mobile-friendly.
+
+## Author
+
+- Frontend Mentor - [@oliviorui](https://www.frontendmentor.io/profile/oliviorui)
+
+## Acknowledgments
+
+Thanks to the Frontend Mentor community for the support and feedback!

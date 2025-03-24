@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Karla';
+    src: url('assets/fonts/Karla-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: static;
+    bottom: 0;
+    margin: 10px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: hsl(148, 38%, 91%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 80vw;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h1 {
+    color: hsl(187, 24%, 22%);
+}
+
+label, p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid hsl(187, 24%, 22%);
+    width: 75vw;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: 2px solid hsl(169, 82%, 27%);
+    border: none;
+}
+
+input[type="text"], input[type="email"] {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border: 1px solid hsl(187, 24%, 22%);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+textarea {
+    padding-top: 10px;
+    height: 200px;
+}
+
+.consent-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.consent-div label, .consent-div input {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(169, 82%, 27%);
+    width: 80vw;
+    height: 55px;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+button:hover {
+    background-color: hsl(187, 24%, 22%);
+    transition: .4s ease-in-out;
+}
+
+span {
+    display: none; /* display: inline-block; */
+    margin: -20px 0 15px;
+    color: hsl(0, 66%, 54%);
+}
+
+input[type="text"].error, input[type="email"].error, textarea.error {
+    outline: 2px solid hsl(0, 66%, 54%);
+    border: none;
+}
+
+.sent-message {
+    display: none;
+    background-color: hsl(187, 24%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 10px;
+    left: 8vw;
+    width: 75vw;
+}
+
+.sent-message div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.sent-message h2 {
+    font-size: 17px;
+}
+
+.sent-message p {
+    font-weight: 400;
+}
+
+/* Restante do CSS mantido */
+
+@media (min-width: 1000px) {
+    main {
+        padding: 35px;
+        width: 40vw;
+    }
+
+    /* Agrupar First Name e Last Name com flex, mas manter os labels em cima dos inputs */
+    .name-fields {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .name-fields label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .name-fields input[type="text"] {
+        width: 18vw;
+        margin-bottom: 15px;
+    }
+
+    /* Adicionar flex para os campos de Query Type */
+    .query-type-fields {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .query-type-fields label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    fieldset {
+        width: 17.3vw;
+    }
+
+    #support-request {
+        margin-top: 2000px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px; /* Espaço entre os campos de rádio */
+    }
+
+    input[type="email"], textarea {
+        width: 39vw;
+    }
+
+    button {
+        width: 40vw;
+    }
+
+    .sent-message {
+        top: 10px;
+        left: 36vw;
+        width: 25vw;
+    }
+}

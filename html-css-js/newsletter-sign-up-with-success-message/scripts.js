@@ -5,7 +5,7 @@ const success_msg = document.getElementById('success-message');
 const user_email = document.getElementById('user-email')
 
 const handleSubmit = (e) => {
-    e.preventDefault(e);
+    e.preventDefault();
 
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);

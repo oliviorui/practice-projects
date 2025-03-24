@@ -5,8 +5,7 @@ Este é um projeto baseado nos arquivos iniciais do **Developer Portfolio**, um 
 ## 🚀 Tecnologias Utilizadas  
 
 - **HTML** – Estruturação da página  
-- **CSS** – Estilização e design responsivo  
-- **JavaScript** – Funcionalidade interativa (caso tenha implementações adicionais)  
+- **CSS** – Estilização e design responsivo   
 
 ## 📸 Preview  
 

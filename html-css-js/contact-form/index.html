@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+  <header>
+    <div class="sent-message">
+      <div>
+        <img src="assets/images/icon-success-check.svg" alt="Check icon in a circle">
+      <h2>Message Sent!</h2>
+      </div>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+
+    <form novalidate>
+      <div class="name-fields">
+        <div>
+          <label for="first-name">First Name *</label>
+          <input type="text" id="first-name" name="first-name" autocomplete="first-name" aria-invalid="true" aria-describedby="first-name-error" required>
+          <span id="first-name-error">This field is required</span>
+        </div>
+    
+        <div>
+          <label for="last-name">Last Name *</label>
+          <input type="text" id="last-name" name="last-name" autocomplete="last-name" aria-invalid="true" aria-describedby="last-name-error" required>
+          <span id="last-name-error">This field is required</span>
+        </div>
+      </div>
+      
+      <label for="email">Email Address *</label>
+      <input type="email" name="email" id="email" autocomplete="email" aria-invalid="true" aria-describedby="email-error" required>
+      <span id="email-error">Please enter a valid email address</span>
+      
+      <!-- Query Type -->
+      <div class="query-type-fields">
+        <div>
+          <label for="general-enquiry">Query Type *</label>
+          <fieldset>
+            <input type="radio" name="query-type" id="general-enquiry" required>
+            <label for="general-enquiry">General Enquiry</label>
+          </fieldset>
+        </div>
+        
+        <div>
+          <fieldset>
+            <input type="radio" name="query-type" id="support-request" required>
+            <label for="support-request">Support Request</label>
+          </fieldset>
+        </div>
+      </div>
+      <span id="query-type-error">Please select a query type</span>
+      
+      <label for="message">Message *</label>
+      <textarea name="message" id="message" autocomplete="message" aria-invalid="true" aria-describedby="message-error" required></textarea>
+      <span id="message-error">This field is required</span>
+      
+      <div class="consent-div">
+        <input type="checkbox" name="consent" id="consent" aria-invalid="true" aria-describedby="consent-error" required>
+        <label for="consent">I consent to being contacted by the team</label>
+      </div>
+      <span id="consent-error">To submit this form, please consent to being contacted</span>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/oliviorui">Olívio Rui Cumbe</a>.
+    </div>
+  </footer>
+</body>
+</html>
