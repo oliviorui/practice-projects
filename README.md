@@ -2,13 +2,13 @@
 
 Este repositório contém desafios de desenvolvimento web que concluí em plataformas como o [Frontend Mentor](https://www.frontendmentor.io/) e outros desafios online. O objetivo é aprimorar minhas habilidades em **HTML**, **CSS**, **JavaScript** e outras tecnologias, resolvendo problemas práticos e aplicando boas práticas de desenvolvimento.  
 
-## 🚀 Tecnologias Utilizadas  
+## Tecnologias Utilizadas  
 
 - **HTML** – Estruturação semântica das páginas.  
 - **CSS** – Estilização responsiva e design adaptativo.  
 - **JavaScript** – Interatividade e manipulação dinâmica do DOM.  
 
-## 📂 Desafios Resolvidos  
+## Desafios Resolvidos  
 
 Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pasta contém um projeto específico e pode ser acessada diretamente:  
 
@@ -41,7 +41,7 @@ Abaixo está a lista completa de desafios resolvidos neste repositório. Cada pa
 
 Novos desafios serão adicionados à medida que avanço nos estudos. 
 
-## 💼 Portfólios  
+## Portfólios  
 
 Além dos desafios, também desenvolvi alguns portfólios que demonstram minhas habilidades em desenvolvimento web:  
 
@@ -49,7 +49,7 @@ Além dos desafios, também desenvolvi alguns portfólios que demonstram minhas 
 - [Portfólio 2.0 (Flexbox)](portfolios/portfolio%202.0%20(Flexbox)/home.html)
 - [Portfólio 2.1 (Responsivo)](portfolios/portfolio%202.1%20(responsivo)/index.html)
 
-## 📌 Como Utilizar  
+## Como Utilizar  
 
 1. Clone este repositório:  
    ```bash
@@ -61,10 +61,10 @@ Além dos desafios, também desenvolvi alguns portfólios que demonstram minhas 
    ```  
 3. Para desafios front-end, basta abrir o arquivo HTML no navegador.  
 
-## 🤝 Contribuições  
+## Contribuições  
 
 Sugestões e melhorias são sempre bem-vindas! Se quiser contribuir, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.  
 
-## 📜 Licença  
+## Licença  
 
 Este projeto está licenciado sob a [MIT License](LICENSE), permitindo seu uso, modificação e distribuição, desde que a licença seja mantida.
